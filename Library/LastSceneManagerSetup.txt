@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Angry Birds Style/_Scenes/mainMenu.unity
+- path: Assets/COURTEOUSBIRDS/_Scenes/curlingScene.unity
   isLoaded: 1
   isActive: 1
