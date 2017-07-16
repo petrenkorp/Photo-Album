@@ -16,8 +16,12 @@ public static class PlayerStats {
 
 		currentLevel = 0;
 		levels = new string[2];
-		levels[0] = "concertScene";
-		levels[1] = "curlingScene";
+		levels[0] = "RUSH";
+		levels[1] = "CURLING";
+		//levels [2] = "MOOSE";
+		//levels [3] = "POUTINE";
+		//levels [4] = "TREEPLANT";
+		//levels [5] = "CNTOWER";
 		scores = new int[levels.Length];
 		//Debug.Log ("player stats initialize");
 
