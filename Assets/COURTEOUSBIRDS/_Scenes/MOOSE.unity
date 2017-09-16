@@ -391,7 +391,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   drumHitCount: 0
   pretentiousSoloLength: 12
-  reset: {fileID: 1929785975}
+  reset: {fileID: 0}
   skinSmasher: {fileID: 0}
   cymbalPlayer: {fileID: 0}
   canvas: {fileID: 1171279728}
@@ -1873,15 +1873,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1929785974}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b70b1e55775a2cd46a1313a554078244, type: 3}
+  m_Script: {fileID: 11500000, guid: 32a22f32488016c418460215b178316c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   projectile: {fileID: 301630123}
-  resetSpeed: 0.1
-  player: {fileID: 301630122}
-  bronze: 5
-  silver: 10
-  gold: 15
+  resetSpeed: 0.4
 --- !u!61 &1929785976
 BoxCollider2D:
   m_ObjectHideFlags: 0

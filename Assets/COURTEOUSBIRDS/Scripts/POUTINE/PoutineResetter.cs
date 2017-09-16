@@ -2,11 +2,10 @@
 using UnityEngine.SceneManagement;
 using System.Collections;
 
-public class Resetter : MonoBehaviour {
+public class PoutineResetter : MonoBehaviour {
 
 	public Rigidbody2D projectile;			//	The rigidbody of the projectile
 	public float resetSpeed = 0.4f;		//	The angular velocity threshold of the projectile, below which our game will reset
-    public RockMove other;
 	
 	private float resetSpeedSqr;			//	The square value of Reset Speed, for efficient calculation
 	private SpringJoint2D spring;			//	The SpringJoint2D component which is destroyed when the projectile is launched
@@ -30,7 +29,7 @@ public class Resetter : MonoBehaviour {
 		//	If the spring had been destroyed (indicating we have launched the projectile) and our projectile's velocity is below the threshold...
 		if (spring == null && projectile.velocity.sqrMagnitude < resetSpeedSqr) {
 			//	... call the curling rock movement function
-			other.RockMovement ();
+			//other.RockMovement ();
 		}
 	}
 	
