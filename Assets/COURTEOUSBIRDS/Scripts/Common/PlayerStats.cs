@@ -15,13 +15,13 @@ public static class PlayerStats {
 		//int count = 0;
 
 		currentLevel = 0;
-		levels = new string[2];
-		levels[0] = "RUSH";
-		levels[1] = "CURLING";
-		//levels [2] = "MOOSE";
-		//levels [3] = "POUTINE";
-		//levels [4] = "TREEPLANT";
-		//levels [5] = "CNTOWER";
+		levels = new string[6];
+		levels[0] = "MOOSE";
+		levels[1] = "POUTINE";
+		levels[2] = "TREEPLANT";
+		levels[3] = "CNTOWER";
+		levels[4] = "RUSH";
+		levels[5] = "CURLING";
 		scores = new int[levels.Length];
 		//Debug.Log ("player stats initialize");
 
