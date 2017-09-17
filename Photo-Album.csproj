@@ -52,9 +52,6 @@
     <Reference Include="UnityEngine">
       <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.Advertisements">
-      <HintPath>Library\UnityAssemblies\UnityEngine.Advertisements.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
@@ -69,9 +66,6 @@
     </Reference>
     <Reference Include="UnityEngine.HoloLens">
       <HintPath>Library\UnityAssemblies\UnityEngine.HoloLens.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.Purchasing">
-      <HintPath>Library\UnityAssemblies\UnityEngine.Purchasing.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.VR">
       <HintPath>Library\UnityAssemblies\UnityEngine.VR.dll</HintPath>
@@ -89,17 +83,21 @@
   <ItemGroup>
     <Compile Include="Assets\BirdDrumScript.cs" />
     <Compile Include="Assets\COURTEOUSBIRDS\Scripts\Achievements\AchievementsController.cs" />
+    <Compile Include="Assets\COURTEOUSBIRDS\Scripts\CNTOWER\CNTowerResetter.cs" />
+    <Compile Include="Assets\COURTEOUSBIRDS\Scripts\CURLING\CurlingResetter.cs" />
     <Compile Include="Assets\COURTEOUSBIRDS\Scripts\Common\PlayerStats.cs" />
     <Compile Include="Assets\COURTEOUSBIRDS\Scripts\Common\ProjectileDragging.cs" />
     <Compile Include="Assets\COURTEOUSBIRDS\Scripts\Common\ProjectileFollow.cs" />
-    <Compile Include="Assets\COURTEOUSBIRDS\Scripts\Common\Resetter.cs" />
     <Compile Include="Assets\COURTEOUSBIRDS\Scripts\Common\TargetDamage.cs" />
     <Compile Include="Assets\COURTEOUSBIRDS\Scripts\Common\VictoryCanvasController.cs" />
+    <Compile Include="Assets\COURTEOUSBIRDS\Scripts\MOOSE\MooseResetter.cs" />
     <Compile Include="Assets\COURTEOUSBIRDS\Scripts\MainMenu\MainMenuScript.cs" />
+    <Compile Include="Assets\COURTEOUSBIRDS\Scripts\POUTINE\PoutineResetter.cs" />
     <Compile Include="Assets\COURTEOUSBIRDS\Scripts\RUSH\ConcertSceneResetter.cs" />
     <Compile Include="Assets\COURTEOUSBIRDS\Scripts\RUSH\CymbalHitDetection.cs" />
     <Compile Include="Assets\COURTEOUSBIRDS\Scripts\RUSH\CymbalSoundGenerator.cs" />
     <Compile Include="Assets\COURTEOUSBIRDS\Scripts\RUSH\DrumSoundGenerator.cs" />
+    <Compile Include="Assets\COURTEOUSBIRDS\Scripts\TREEPLANT\TreePlantResetter.cs" />
     <Compile Include="Assets\COURTEOUSBIRDS\Scripts\Victory\VictoryController.cs" />
     <Compile Include="Assets\RockMove.cs" />
     <Compile Include="Assets\RockMovement.cs" />
