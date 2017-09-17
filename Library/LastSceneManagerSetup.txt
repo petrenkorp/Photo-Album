@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/COURTEOUSBIRDS/_Scenes/mainMenu.unity
+- path: Assets/COURTEOUSBIRDS/_Scenes/CURLING.unity
   isLoaded: 1
   isActive: 1
