@@ -49,14 +49,6 @@ public class ProjectileDragging : MonoBehaviour {
 			catapultLineBack.enabled = false;
 		}
 	}
-
-     void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.gameObject.CompareTag ("IcePiece"))
-        {
-            other.gameObject.SetActive(false);
-        }
-    }
         
 	void LineRendererSetup () {
 		catapultLineFront.SetPosition(0, catapultLineFront.transform.position);

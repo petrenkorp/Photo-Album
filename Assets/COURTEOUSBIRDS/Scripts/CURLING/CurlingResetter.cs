@@ -28,9 +28,15 @@ public class CurlingResetter : MonoBehaviour {
 		}
 
 		//	If the spring had been destroyed (indicating we have launched the projectile) and our projectile's velocity is below the threshold...
-		if (spring == null && projectile.velocity.sqrMagnitude < resetSpeedSqr) {
+		if (spring == null && projectile.velocity.sqrMagnitude < resetSpeedSqr && !other.hasFired) {
 			//	... call the curling rock movement function
 			other.RockMovement ();
+		}
+
+		if (other.hasFired) {
+			if (other.hasStopped()) {
+				Reset();
+			}
 		}
 	}
 	

@@ -9,6 +9,7 @@ public class RockMove : MonoBehaviour {
 
     public Rigidbody2D curlingRock;
     public float rockSpeed;
+    public bool hasFired = false;
 
     //private float resetSpeedSqr;            //	The square value of Reset Speed, for efficient calculation
     //private SpringJoint2D spring;           //	The SpringJoint2D component which is destroyed when the projectile is launched
@@ -19,23 +20,18 @@ public class RockMove : MonoBehaviour {
 	
 	
 	void Update () {
-        //  while (GetComponent.curlingRock.velocity.x < 0.025)
-        //  {
-        //     OnCollisionEnter2D(Collision2D other);
-        //  }
 
-        //   void OnCollisionEnter2D();
-        // {
-
-        // }
     }
 
     public void RockMovement() {
 
-    curlingRock.velocity = new Vector2(rockSpeed,0); 
+        curlingRock.velocity = new Vector2(rockSpeed,0); 
+        hasFired = true;
 
+    }
 
-
-}
+    public bool hasStopped(){
+        return curlingRock.velocity.x <= 0.1;
+    }
 
 }
