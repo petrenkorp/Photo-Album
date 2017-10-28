@@ -12,6 +12,7 @@ TagManager:
   - SilverTrophy
   - BronzeTrophy
   - VictoryCanvas
+  - Sapling
   layers:
   - Default
   - TransparentFX
