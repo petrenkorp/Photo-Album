@@ -58,6 +58,7 @@
      <Compile Include="Assets\COURTEOUSBIRDS\Scripts\Common\VictoryCanvasController.cs" />
      <Compile Include="Assets\COURTEOUSBIRDS\Scripts\MOOSE\MooseResetter.cs" />
      <Compile Include="Assets\COURTEOUSBIRDS\Scripts\MainMenu\MainMenuScript.cs" />
+     <Compile Include="Assets\COURTEOUSBIRDS\Scripts\POUTINE\KetchupScript.cs" />
      <Compile Include="Assets\COURTEOUSBIRDS\Scripts\POUTINE\PoutineResetter.cs" />
      <Compile Include="Assets\COURTEOUSBIRDS\Scripts\RUSH\BirdDrumScript.cs" />
      <Compile Include="Assets\COURTEOUSBIRDS\Scripts\RUSH\ConcertSceneResetter.cs" />

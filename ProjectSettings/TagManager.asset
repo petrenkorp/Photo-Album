@@ -12,6 +12,8 @@ TagManager:
   - SilverTrophy
   - BronzeTrophy
   - VictoryCanvas
+  - Ketchup
+  - Poutine
   layers:
   - Default
   - TransparentFX
