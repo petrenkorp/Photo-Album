@@ -14,6 +14,7 @@ TagManager:
   - VictoryCanvas
   - Ketchup
   - Poutine
+  - Sapling
   layers:
   - Default
   - TransparentFX

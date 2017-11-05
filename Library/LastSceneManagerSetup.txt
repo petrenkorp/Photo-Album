@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/COURTEOUSBIRDS/_Scenes/POUTINE.unity
+- path: Assets/COURTEOUSBIRDS/_Scenes/TREEPLANT.unity
   isLoaded: 1
   isActive: 1
