@@ -91,10 +91,14 @@
     <Compile Include="Assets\COURTEOUSBIRDS\Scripts\Common\ProjectileDraggingTREE.cs" />
     <Compile Include="Assets\COURTEOUSBIRDS\Scripts\Common\ProjectileFollow.cs" />
     <Compile Include="Assets\COURTEOUSBIRDS\Scripts\Common\ProjectileFollowCN.cs" />
+    <Compile Include="Assets\COURTEOUSBIRDS\Scripts\Common\ProjectileMainMenu.cs" />
     <Compile Include="Assets\COURTEOUSBIRDS\Scripts\Common\TargetDamage.cs" />
     <Compile Include="Assets\COURTEOUSBIRDS\Scripts\Common\VictoryCanvasController.cs" />
     <Compile Include="Assets\COURTEOUSBIRDS\Scripts\MOOSE\MooseResetter.cs" />
+    <Compile Include="Assets\COURTEOUSBIRDS\Scripts\MainMenu\ArmCollisionScript.cs" />
+    <Compile Include="Assets\COURTEOUSBIRDS\Scripts\MainMenu\MainMenuBGClick.cs" />
     <Compile Include="Assets\COURTEOUSBIRDS\Scripts\MainMenu\MainMenuScript.cs" />
+    <Compile Include="Assets\COURTEOUSBIRDS\Scripts\POUTINE\KetchupScript.cs" />
     <Compile Include="Assets\COURTEOUSBIRDS\Scripts\POUTINE\PoutineResetter.cs" />
     <Compile Include="Assets\COURTEOUSBIRDS\Scripts\RUSH\BirdDrumScript.cs" />
     <Compile Include="Assets\COURTEOUSBIRDS\Scripts\RUSH\ConcertSceneResetter.cs" />
