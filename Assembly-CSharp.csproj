@@ -53,10 +53,15 @@
      <Compile Include="Assets\COURTEOUSBIRDS\Scripts\CURLING\RockMove.cs" />
      <Compile Include="Assets\COURTEOUSBIRDS\Scripts\Common\PlayerStats.cs" />
      <Compile Include="Assets\COURTEOUSBIRDS\Scripts\Common\ProjectileDragging.cs" />
+     <Compile Include="Assets\COURTEOUSBIRDS\Scripts\Common\ProjectileDraggingTREE.cs" />
      <Compile Include="Assets\COURTEOUSBIRDS\Scripts\Common\ProjectileFollow.cs" />
+     <Compile Include="Assets\COURTEOUSBIRDS\Scripts\Common\ProjectileFollowCN.cs" />
+     <Compile Include="Assets\COURTEOUSBIRDS\Scripts\Common\ProjectileMainMenu.cs" />
      <Compile Include="Assets\COURTEOUSBIRDS\Scripts\Common\TargetDamage.cs" />
      <Compile Include="Assets\COURTEOUSBIRDS\Scripts\Common\VictoryCanvasController.cs" />
      <Compile Include="Assets\COURTEOUSBIRDS\Scripts\MOOSE\MooseResetter.cs" />
+     <Compile Include="Assets\COURTEOUSBIRDS\Scripts\MainMenu\ArmCollisionScript.cs" />
+     <Compile Include="Assets\COURTEOUSBIRDS\Scripts\MainMenu\MainMenuBGClick.cs" />
      <Compile Include="Assets\COURTEOUSBIRDS\Scripts\MainMenu\MainMenuScript.cs" />
      <Compile Include="Assets\COURTEOUSBIRDS\Scripts\POUTINE\KetchupScript.cs" />
      <Compile Include="Assets\COURTEOUSBIRDS\Scripts\POUTINE\PoutineResetter.cs" />
@@ -67,7 +72,11 @@
      <Compile Include="Assets\COURTEOUSBIRDS\Scripts\RUSH\DrumSoundGenerator.cs" />
      <Compile Include="Assets\COURTEOUSBIRDS\Scripts\TREEPLANT\TreePlantResetter.cs" />
      <Compile Include="Assets\COURTEOUSBIRDS\Scripts\Victory\VictoryController.cs" />
+     <Compile Include="Assets\PlantingBox.cs" />
      <None Include="Assets\COURTEOUSBIRDS\_ReadMe.txt" />
+ <Reference Include="UnityEngine.Advertisements">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
@@ -82,6 +91,9 @@
  </Reference>
  <Reference Include="UnityEngine.HoloLens">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Purchasing">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.VR">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>

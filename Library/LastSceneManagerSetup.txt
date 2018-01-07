@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/COURTEOUSBIRDS/_Scenes/mainMenu.unity
+- path: Assets/COURTEOUSBIRDS/_Scenes/POUTINE.unity
   isLoaded: 1
   isActive: 1
